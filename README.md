@@ -37,7 +37,7 @@ Supported protocols and their respective options:
 
 For instance, to create an audio file with the Scottie 2 protocol with a sampling rate of 22050Hz, and the input as a file `buzzece_qr.png` invoke:
 
-`./pisstv -r 22050 -p s2 buzzece_qr.png`
+./pisstvpp -r 22050 -p s2 buzzece_qr.png`
 
 This will create `buzzece_qr.png.wav` in the working directory that encodes the ECE Buzz image in the Scottie 2 protocol.
 
